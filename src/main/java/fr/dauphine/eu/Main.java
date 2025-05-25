@@ -1,8 +1,5 @@
 package fr.dauphine.eu;
-import easy.MergeAndSortArray;
-import easy.NextGreaterElement;
-import easy.RemoveElement;
-import easy.UniqueEmailAdress;
+import easy.*;
 
 import java.util.Arrays;
 
@@ -10,8 +7,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        NextGreaterElement nxt = new NextGreaterElement();
-            System.out.println(Arrays.toString(nxt.nextGreaterElement(new int[]{4,1,2}, new int[]{1,3,4,2})));
+       LongestMonoticSubArray lo = new LongestMonoticSubArray();
+        System.out.println(lo.longestMonotonicSubarray(new int[]{1,4,3,3,2}));
 
 
 
