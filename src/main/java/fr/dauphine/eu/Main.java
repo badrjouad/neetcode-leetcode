@@ -1,14 +1,13 @@
 package fr.dauphine.eu;
-import easy.*;
-
-import java.util.Arrays;
+import easy.arrays.KthDistinctStringInArray;
+import easy.arrays.LongestMonoticSubArray;
 
 
 public class Main {
     public static void main(String[] args) {
 
-       LongestMonoticSubArray lo = new LongestMonoticSubArray();
-        System.out.println(lo.longestMonotonicSubarray(new int[]{1,4,3,3,2}));
+        KthDistinctStringInArray k = new KthDistinctStringInArray();
+        System.out.println(k.kthDistinct(new String[]{"d","b","c","b","c","a"},2));
 
 
 

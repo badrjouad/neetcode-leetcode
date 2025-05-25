@@ -1,4 +1,4 @@
-package easy;
+package easy.arrays;
 
 public class MaximumAscendingSubarray {
     public int maxAscendingSum(int[] nums) {

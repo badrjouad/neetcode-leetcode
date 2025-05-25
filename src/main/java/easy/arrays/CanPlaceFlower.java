@@ -1,4 +1,4 @@
-package easy;
+package easy.arrays;
 
 public class CanPlaceFlower {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {

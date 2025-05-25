@@ -1,4 +1,4 @@
-package easy;
+package easy.arrays;
 
 public class ReplaceElements {
     public int[] replaceElements(int[] arr) {

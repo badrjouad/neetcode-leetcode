@@ -1,7 +1,4 @@
-package easy;
-
-import java.util.Arrays;
-import java.util.Collections;
+package easy.arrays;
 
 public class LongestMonoticSubArray {
     public int longestMonotonicSubarray(int[] nums) {

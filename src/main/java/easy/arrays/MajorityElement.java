@@ -1,6 +1,4 @@
-package easy;
-
-import com.sun.source.tree.Tree;
+package easy.arrays;
 
 import java.util.*;
 
